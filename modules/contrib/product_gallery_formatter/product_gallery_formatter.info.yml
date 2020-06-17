@@ -1,0 +1,13 @@
+name: Product Gallery Formatter
+type: module
+description: Product gallery formatter for products images with zoom effect.
+# core: 8.x
+dependencies:
+  - image
+package: Custom
+
+# Information added by Drupal.org packaging script on 2017-05-12
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'product_gallery_formatter'
+datestamp: 1494573493

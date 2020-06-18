@@ -1,0 +1,16 @@
+<VirtualHost *:8080>
+    ServerName jhondeer.local
+    ServerAdmin mandar.vaidya@yahoo.ocm
+    DocumentRoot "E:wamp/www/drupal"
+    <Directory /var/www/html/convention/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+    ErrorLog ${APACHE_LOG_DIR}/convention_local.error.log
+    # Possible values include: debug, info, notice, warn, error, crit,
+    # alert, emerg.
+    LogLevel warn
+    CustomLog ${APACHE_LOG_DIR}/convention_local.access.log combined
+</VirtualHost>
